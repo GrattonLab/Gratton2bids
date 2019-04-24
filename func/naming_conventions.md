@@ -15,7 +15,7 @@ Common types of imaging our lab does:
 | ------------- | ------------- |------------- |
 |                |   rec           |    Key/value used to distinguish different reconstruction algorithms           |
 |                |  acq            |    key/value pair corresponds to custom label to distinguish different set of parameters used for acquiring the same task |
-|                |     echo         |     Number/index, multi echo data must be split into one file per echo; each file shares the same name          |
+|                |     run         |     if running the same parameters multiple times would give numeric for runs ie: run-01, run-02 etc         |
 
 
 
