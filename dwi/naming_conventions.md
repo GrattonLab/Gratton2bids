@@ -17,6 +17,14 @@ For multiband acquisitions, one can also save the single-band reference image as
 
 The bvec and bval files are in the FSL format : The bvec files contain 3 rows with n space-delimited floating-point 5 numbers (corresponding to the n volumes in the relevant NIfTI file). The first row contains the x elements, the second row contains the y elements and third row contains the z elements of a unit vector in the direction of the applied diffusion gradient, where the i-th elements in each row correspond together to the i-th volume with [0,0,0] for non-diffusion-weighted volumes. Inherent to the FSL format for bvec specification is the fact that the coordinate system of the bvecs is with respect to the participant (i.e., defined by the axes of the corresponding dwi.nii file) and not the magnet’s coordinate system, which means that any rotations applied to dwi.nii also need to be applied to the corresponding bvec file.
 
+Our lab lists out the directions of gradients in bval
+
+Example: sub-01_ses-04_dir-80_run-01_dwi.bval
+
+As well as the number of nested B0's
+
+Example: sub-01_ses-04_B0-25_run-01_dwi.bval
+
 
 ### bvec example: 
 
