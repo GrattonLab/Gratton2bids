@@ -25,7 +25,9 @@ be stored in separate files. The following naming conventions should be used for
 
 
 ● cardiac: continuous pulse measurement
+
 ● respiratory: continuous breathing measurement
+
 ● trigger: continuous measurement of the scanner trigger signal
 
 
