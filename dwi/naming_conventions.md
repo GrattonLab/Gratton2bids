@@ -11,7 +11,10 @@
 Diffusion-weighted imaging data acquired for that participant. The optional “acq-<label>” key/value pair
 corresponds to a custom label the user may use to distinguish different set of parameters. For example this should
 be used when a study includes two diffusion images - one single band and one multiband. In such case two files
-could have the following names: sub-01_acq-singleband_dwi.nii.gz and sub-01_acq-multiband_dwi.nii.gz, however the user is free to choose any other label than “singleband” and “multiband” as long as they are consistent across subjects and sessions.
+could have the following names: sub-01_acq-singleband_dwi.nii.gz and sub-01_acq-multiband_dwi.nii.gz, however the user is free to choose any other label than “singleband” and “multiband” as long as they are consistent across subjects and sessions. Could also include the sampling used. 
+  
+ Example:
+ sub-01_ses-03_dsi_dwi.nii
 
 For multiband acquisitions, one can also save the single-band reference image as type “sbre” (e.g. dwi/sub-control01_sbref.nii[.gz]).
 
