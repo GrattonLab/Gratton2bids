@@ -22,21 +22,34 @@ support for other file formats possible in the future. Start time should be expr
 of start of acquisition of the first volume in the corresponding imaging file (negative values are allowed). Sampling
 frequency should be expressed in Hz. Recordings with different sampling frequencies and/or starting times should
 be stored in separate files. The following naming conventions should be used for column names:
+
+
 ● cardiac: continuous pulse measurement
 ● respiratory: continuous breathing measurement
 ● trigger: continuous measurement of the scanner trigger signal
+
+
 Any combination of those three can be included as well as any other stimuli related continuous variables (such as
 low level image properties in a video watching paradigm).
-－ 43 －
+
 Physiological recordings (including eye tracking) should use the _physio suffix, and signals related to the
 stimulus should use _stim suffix. For motion parameters acquired from scanner side motion correction please use
 _physio suffix.
+
+
 More than one continuous recording file can be included (with different sampling frequencies). In such case use
 different labels. For example: _recording-contrast, _recording-saturation. The full file name could
 then look like this: sub-control01_task-nback_run-2_recording-movie_stim.tsv.gz
+
+
 For multi-echo data, physio.tsv file is applicable to all echos of particular run.
+
 For eg:
+
 sub-01_task-cuedSGT_run-1_physio.tsv.gz
+
 sub-01_task-cuedSGT_run-1_echo-1_bold.nii.gz
+
 sub-01_task-cuedSGT_run-1_echo-2_bold.nii.gz
+
 sub-01_task-cuedSGT_run-1_echo-3_bold.nii.gz
