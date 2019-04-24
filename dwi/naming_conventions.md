@@ -6,7 +6,7 @@
   
   3) sub-<participant_label>[_ses-<session_label>][_acq-<label>][_run-<index>]_dwi.bvec
   
-  4)sub-<participant_label>[_ses-<session_label>][_acq-<label>][_run-<index>]_dwi.json
+  4) sub-<participant_label>[_ses-<session_label>][_acq-<label>][_run-<index>]_dwi.json
 
 Diffusion-weighted imaging data acquired for that participant. The optional “acq-<label>” key/value pair
 corresponds to a custom label the user may use to distinguish different set of parameters. For example this should
