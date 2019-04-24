@@ -29,3 +29,8 @@ The purpose of this file is to describe timing and other events recorded. Events
 | response_time  | **Optional** Response time measures in seconds. A negative response time can be used to represent preemptive responses and "n/a" denotes a missed response.   |
 | stim_file  | **Optional** Represents the location of the stimulus file (image, video, sound, etc) presented at the given onset time. There are no restrictions on the file formats of the stimuli files, should be stores in the /stimuli folder (root directory of the dataset). The values under the stim_file column correspond to a path relative to /stimuli. Ex: /stimuli/images/cat03.jpg  |
 | HED  | **Optional** Hierarchical Event Descriptor (HED)  |
+
+
+
+
+Json files include any relevant metadata you think is necessary for a better understanding see examples. 
