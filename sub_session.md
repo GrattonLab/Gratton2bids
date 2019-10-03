@@ -9,6 +9,8 @@ participant key files have to be different from group level participant key colu
 
 
 example 
+
+
 |session_id| acq_time| systolic_blood_pressure|
 | ---------| --------|------------------------|
 |ses-predrug| 2009-06-15T13:45:30 |120|
