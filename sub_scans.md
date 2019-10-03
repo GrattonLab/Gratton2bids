@@ -17,6 +17,8 @@ questionnaire score administered after a resting state scan.
 
 
 an example of this would look like
-|filename | acq_time |
-| ------------- | ------------- |
+
+
+|            filename                      |       acq_time      |
+| ---------------------------------------- | ------------------- |
 |func/sub-control01_task-nback_bold.nii.gz | 1877-06-15T13:45:30 |
