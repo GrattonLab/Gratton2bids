@@ -1,1 +1,1 @@
-In addition to a free form text file (README) describing the dataset in more details should be provided. 
+A template of examples and information regarding format of bids approved datasets
